@@ -66,6 +66,10 @@ function detect-vivid-image () {
       #  AWS_IMAGE=?Not available?
       #  ;;
 
+      ap-northeast-2)
+        AWS_IMAGE=ami-c2df11ac
+        ;;
+
       ap-southeast-2)
         AWS_IMAGE=ami-d11431b2
         ;;
